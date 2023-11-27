@@ -16,8 +16,7 @@ public class MyFIFO_App {
         input.addAll(temp);
     }
 
-    // Method mirror that accepts a queue of strings as a parameter and appends the
-    // queue's contents to itself in reverse order
+    //accepts a queue of strings as a parameter and appends the queue's contents to itself in reverse order
     public static <E> void mirror(Queue<E> input) {
         Stack<E> temp = new Stack<>();
         for (int i = 0; i < input.size(); i++) {
